@@ -71,15 +71,19 @@ $jmeter -n -t BingLoadTestLocalhostWithVariables.jmx -l BingLoadTestLocalhostWit
 TODO 
 
 # HTTP Requests Load Test with JMeter 
-TODO 
 
 GET/POST 
+
+![JMeter-HTTP-01.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-HTTP-01.png?raw=true)
+![JMeter-HTTP-02.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-HTTP-02.png?raw=true)
 
 # Jmeter API Testing
 TODO 
 
 # Jmeter Database Testing 
-TODO 
+
+![JMeter-JDBC-testing-01.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-JDBC-testing-01.png?raw=true)
+![JMeter-JDBC-testing-02.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-JDBC-testing-02.png?raw=true)
 
 # JMeter Variables, Random Number, Functions 
 TODO 
