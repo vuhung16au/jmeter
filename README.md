@@ -25,6 +25,17 @@
 - Test applications and other functions 
 - (How it works) It can simulate 1000 - 10000 users accessing the website concurrently
 
+# Typical Use Cases for JMeter 
+
+| Name of Use Case | Example Use | Description | Important Notes |
+| --- | --- | --- | --- |
+| Performance Testing | Testing static and dynamic resources | JMeter tests both static resources (JavaScript, HTML) and dynamic resources (JSP, Servlets, AJAX). It helps identify the maximum number of concurrent users your website can handle. | Test results can be influenced by system resources (CPU, RAM) and network conditions. |
+| Load Testing | Simulating multiple user access | JMeter simulates multiple user access to Web services concurrently, helping identify capacity limits and potential bottlenecks. | System resources and network conditions should be considered when interpreting test results. |
+| Stress Testing | Finding the maximum load the web server can handle | Stress Testing is used to find the maximum load the web server can handle. When the load goes beyond the limit, the web server starts responding slowly and produces errors. | Stress testing helps identify the breaking point of your system. |
+| Server Performance Analysis | Analyzing server performance under high traffic | JMeter is used to identify whether the web application under test can manage high traffic. It also analyzes a server’s overall performance when it is under a lot of strain. | Server performance analysis can help optimize your system for better performance. |
+| Non-HTTP Testing | Testing databases or message queues | JMeter can test endpoints that aren't HTTP-based, such as databases or message queues. | JMeter can be used for a variety of testing scenarios, not just HTTP-based applications. |
+
+
 # Why Use JMeter for Load Testing 
 - Free or charge 
 - Performance testing of applications
