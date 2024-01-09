@@ -78,7 +78,35 @@ GET/POST
 ![JMeter-HTTP-02.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-HTTP-02.png?raw=true)
 
 # Jmeter API Testing
-TODO 
+
+We the the following API 
+
+```
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
+```
+ref. https://openweathermap.org/current
+
+We need to register and to get a free API. Once we have an API, set a location (`lat`, `lon`) = -33.98728,151.0931381, which is a location in Connells Point, New South Wales 2221, Australia. 
+
+The API call for the location is 
+
+```
+https://api.openweathermap.org/data/2.5/weather?lat=-33.98728&lon=151.0931381&appid=XXXXXXXXXXXXXXXXXXXX5f8a2
+```
+
+Here, we have: 
+
+- protocol: https
+- Hostname: api.openweathermap.org
+- Path: /data/2.5/weather
+- First parameter name, first parameter value: lat, -33.98728
+- Second parameter name, second parameter value: lon, 151.0931381
+- Third parameter name, third parameter value: appid, XXXXXXXXXXXXXXXXXXXX5f8a2 (My API key at Open Weather Map)
+
+Apply the values into JMeter settings and run
+
+![JMeter-API-Testing-01.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-API-Testing-01.png?raw=true)
+![JMeter-API-Testing-02.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-API-Testing-02.png?raw=true)
 
 # Jmeter Database Testing 
 
