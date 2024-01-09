@@ -41,7 +41,9 @@ $brew install jmeter
 ```
 
 # JMeter GUI Simple Load Test
-WIP 
+
+![JMeter-Thread-Group.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-Thread-Group.png?raw=true)
+![JMeter-Listener-Test-Result.png](https://github.com/vuhung16au/jmeter/blob/main/JMeter-Listener-Test-Result.png?raw=true)
 
 # JMeter Commandlines
 
